@@ -17,10 +17,16 @@ int main(void) {
   printf("\nThe first number is %i and the second number is %i", x, y);
 
   int sum = x + y;
-  printf("\n\nThe sum of the numbers is %i", sum);
+  printf("\nThe sum of the numbers is %i", sum);
 
   int product = x * y;
-  printf("\n\nThe product of the numbers is %i", product);
+  printf("\nThe product of the numbers is %i", product);
+
+  int quotient = x / y;
+  printf("\nThe quotient of the numbers is %d", quotient);
+
+  int difference = x - y;
+  printf("\nThe difference of the numbers is %i", difference);
 
   // TODO: add the rest of the math operations here (make sure to follow the
   // same coding structure as above to make it easier to read!):
